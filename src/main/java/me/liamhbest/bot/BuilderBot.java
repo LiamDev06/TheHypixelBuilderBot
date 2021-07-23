@@ -12,7 +12,7 @@ import javax.security.auth.login.LoginException;
 public class BuilderBot {
 
     public static JDA jda;
-    private static final String TOKEN = "ODY4MjMyMjUzNTIyNzM1MTA1.YPsqTA.bniAQCLnRqMsmTY45AMRpcD2LL4";
+    private static final String TOKEN = System.getenv("THE_HYPIXEL_BUILDERS_BOT_TOKEN");
 
     public static void main(String[] args) throws LoginException {
         System.out.println("Starting systems...");
